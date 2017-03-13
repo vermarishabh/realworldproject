@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Account</title>
+	
+	<meta name="author" content="Jubad Miah" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+<body>
+
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">My Account</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="#/news.html">News</a></li>
+				<li><a href="#/contact.html">Contact</a></li>
+				<li><a href="#/exit.html">Exit</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h2>My Account Details</h2>
+			<p>
+				Details of the subscription are shown below: 
+			</p>
+		</div>
+		
+		<div class="dropdown">
+		<p>Choose another subscription to help the poor and save many more lives <br> I assure you that you will get rewarded even more wealth and success <br> in the future. </p>
+		  <button class="dropbtn">Subscription</button>
+		  <div class="dropdown-content">
+			<a href="#">One Off</a>
+			<a href="#">6 Months</a>
+			<a href="#">12 Months</a>
+			<a href="#">Every Month</a>
+		  </div>
+		</div>
+		<br>
+		<br>
+		
+		<form class="account_page" method="get" id="charityOrganisation">
+			<p class="chooseCharity">
+				<select name="organisation">
+					<option>Choose Organisation...</option>
+					<option>Birmingham Children's Hospital Charity</option>
+					<option>Cancer Prevention Research Trust</option>
+					<option>Islamic Relief</option>
+					<option>Muslim Aid</option>
+					<option>Voluntary Action Coventry</option>
+					<option>Banardo's</option>
+				</select>
+			</p>
+			<p class="country">
+				<select name="organisation">
+					<option>Choose Country...</option>
+					<option>Pakistan</option>
+					<option>India</option>
+					<option>Bangladesh</option>
+					<option>United Kingdom</option>
+					<option>Syria</option>
+				</select>
+			</p>
+			<p class="money">
+				<select name="organisation">
+					<option>Choose Amount To Donate...</option>
+					<option>£5.00</option>
+					<option>£10.00</option>
+					<option>£15.00</option>
+					<option>£20.00</option>
+					<option>£25.00</option>
+				</select>
+			</p>
+			
+			<p class="msg">
+				<textarea name="AnythingSpecific" placeholder="write your message here if you would like to donate specific things to any organisation...for example Food, Clothes, Water etc..." rows="10" cols="40"></textarea>	
+			</p>
+			<p class="msg">
+				<textarea name="specificOrganisation" placeholder="Donate to your chosen organisation..." rows="2" cols="40"></textarea>	
+			</p>
+			
+			<p class="membership">
+				<input type="radio" name="cancel" id="" value="cancel">Cancel Membership
+				<input type="radio" name="extend" id="" value="extend">Extend Membership
+			</p>
+			
+			<h3>Account Balance</h3>
+			<p>
+			<input type="text" name="balance" id="balance" placeholder="balance"
+			<label for="balance">Balance left</label>
+			</p>
+			<h3>Rewards/Points</h3>
+			<p>
+			<input type="text" name="rewards" id="rewards" placeholder="rewards"
+			<label for="rewards">Rewards/Points earned</label>
+			</p>
+			
+		</form>
+		<br>
+		
+		<button type="submit" form="nameform" value="Submit">Submit</button>
+		
+		<div id="footer">
+			<p>
+				This page made by <a href="/" target="_blank">[Jubad Miah]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
