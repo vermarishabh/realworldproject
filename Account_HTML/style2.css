@@ -1,0 +1,1446 @@
+/*
+* multi-line comment
+*/
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: red;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 2.0em; }
+h2{ font-size: 3em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+
+body{
+    font-family: arial; 
+	font-size: 80%; 
+	line-height: 1.2em; 
+	width: 100%; margin: 0 auto; 
+	background: #eee;
+}
+
+#page{ 
+	margin: 20px; 
+
+}
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: black;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+#H1_1 {
+    color: rgb(87, 74, 77);
+    height: 31px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 980px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 490px 40.5px;
+    transform-origin: 490px 40.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 24px / 31.2px Lato, sans-serif;
+    margin: 0px 0px 28px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 50px 0px 0px;
+}/*#H1_1*/
+
+#UL_1 {
+    color: rgb(87, 74, 77);
+    height: 29px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 980px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 490px 15px;
+    transform-origin: 490px 15px;
+    border-top: 0px none rgb(87, 74, 77);
+    border-right: 0px none rgb(87, 74, 77);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-left: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 14px / 14px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 25px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 0px;
+}/*#UL_1*/
+
+#LI_2 {
+    color: rgb(87, 74, 77);
+    display: inline-block;
+    height: 29px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 189.781px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 94.8906px 14.5px;
+    transform-origin: 94.8906px 14.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 14px / 18.2px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#LI_2*/
+
+#A_3 {
+    color: rgb(103, 162, 59);
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 159.781px;
+    column-rule-color: rgb(103, 162, 59);
+    perspective-origin: 94.8906px 15px;
+    transform-origin: 94.8906px 15px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(204, 204, 204);
+    border-radius: 5px 5px 0 0;
+    font: normal normal 900 normal 14px / 14px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px -1px;
+    outline: rgb(103, 162, 59) none 0px;
+    padding: 7px 14px;
+}/*#A_3*/
+
+#LI_4 {
+    color: rgb(87, 74, 77);
+    display: inline-block;
+    height: 27px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 136.938px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 68.4688px 13.5px;
+    transform-origin: 68.4688px 13.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 14px / 18.2px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#LI_4*/
+
+#A_5 {
+    color: rgb(87, 74, 77);
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 108.938px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 68.4688px 14px;
+    transform-origin: 68.4688px 14px;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 5px 5px 0 0;
+    font: normal normal 900 normal 14px / 14px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px -1px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 7px 14px;
+}/*#A_5*/
+
+#LI_6 {
+    color: rgb(87, 74, 77);
+    display: inline-block;
+    height: 27px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 116.594px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 58.2969px 13.5px;
+    transform-origin: 58.2969px 13.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 14px / 18.2px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#LI_6*/
+
+#A_7 {
+    color: rgb(87, 74, 77);
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 88.5938px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 58.2969px 14px;
+    transform-origin: 58.2969px 14px;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 5px 5px 0 0;
+    font: normal normal 900 normal 14px / 14px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px -1px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 7px 14px;
+}/*#A_7*/
+
+#LI_8 {
+    color: rgb(87, 74, 77);
+    display: inline-block;
+    height: 27px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 80.7031px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 40.3438px 13.5px;
+    transform-origin: 40.3438px 13.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 14px / 18.2px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#LI_8*/
+
+#A_9 {
+    color: rgb(87, 74, 77);
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 52.7031px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 40.3438px 14px;
+    transform-origin: 40.3438px 14px;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 5px 5px 0 0;
+    font: normal normal 900 normal 14px / 14px Lato, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px -1px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 7px 14px;
+}/*#A_9*/
+
+#DIV_1 {
+    color: rgb(87, 74, 77);
+    height: 859px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 928px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 489px 454.5px;
+    transform-origin: 489px 454.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 25px;
+}/*#DIV_1*/
+
+#DIV_2 {
+    color: rgb(87, 74, 77);
+    height: 859px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 928px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 464px 429.5px;
+    transform-origin: 464px 429.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_2*/
+
+#DIV_3 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: 594px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 278.391px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 139.188px 297px;
+    transform-origin: 139.188px 297px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_3*/
+
+#DIV_4 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 245px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 278.391px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 139.188px 122.5px;
+    transform-origin: 139.188px 122.5px;
+    background: rgb(122, 171, 86) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    margin: 0px 0px 20px;
+    outline: rgb(87, 74, 77) none 0px;
+    overflow: hidden;
+}/*#DIV_4*/
+
+#DIV_7 {
+    color: rgb(87, 74, 77);
+    height: 235px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 258.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 129.438px 117.5px;
+    transform-origin: 129.438px 117.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    margin: 0px 9.75px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_7*/
+
+#FORM_8 {
+    color: rgb(87, 74, 77);
+    height: 215px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 258.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 129.438px 117.5px;
+    transform-origin: 129.438px 117.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 20px 0px 0px;
+}/*#FORM_8*/
+
+#H5_9 {
+    color: rgb(255, 255, 255);
+    height: 14px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 258.891px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 129.438px 7px;
+    transform-origin: 129.438px 7px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 900 normal 14px / 14px Lato, sans-serif;
+    margin: 0px 0px 20px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#H5_9*/
+
+#DIV_10 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 41px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 258.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 129.438px 20.5px;
+    transform-origin: 129.438px 20.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_10*/
+
+#A_11, #A_12 {
+    color: rgb(88, 134, 54);
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 68px;
+    column-rule-color: rgb(88, 134, 54);
+    perspective-origin: 50.5px 20.5px;
+    transform-origin: 50.5px 20.5px;
+    background: rgb(223, 236, 214) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(88, 134, 54);
+    border-right: 1px solid rgb(122, 172, 86);
+    border-bottom: 1px solid rgb(223, 236, 214);
+    border-left: 0px none rgb(88, 134, 54);
+    border-radius: 4px 4px 0 0;
+    font: normal normal 900 normal 12px / 12px Lato, Arial, sans-serif;
+    outline: rgb(88, 134, 54) none 0px;
+    padding: 14px 16px;
+}/*#A_11*/
+
+#DIV_13 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 113px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 238.891px;
+    z-index: 1000;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 129.438px 70px;
+    transform-origin: 129.438px 70px;
+    background: rgb(223, 236, 214) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 0 8px 8px 8px;
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 17px 10px 10px;
+}/*#DIV_13*/
+
+#DIV_14, #DIV_29 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 31px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 238.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 119.438px 15.5px;
+    transform-origin: 119.438px 15.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_14, #DIV_29*/
+
+#DIV_15, #DIV_30, #DIV_37 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 31px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 238.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 119.438px 15.5px;
+    transform-origin: 119.438px 15.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_15, #DIV_30, #DIV_37*/
+
+#DIV_16 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: 31px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 90.7656px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 45.375px 15.5px;
+    transform-origin: 45.375px 15.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_16*/
+
+#DIV_17 {
+    background-position: 99% -10px;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(51, 102, 0);
+    height: 17px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 45.7656px;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 45.375px 15.5px;
+    transform-origin: 45.375px 15.5px;
+    background: rgb(255, 255, 255) url("https://www.muslimaid.org/_ui/media/dist/selector.png") no-repeat scroll 99% -10px / auto padding-box border-box;
+    border: 0px none rgb(51, 102, 0);
+    border-radius: 25px 25px 25px 25px;
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    padding: 7px 30px 7px 15px;
+    transition: all 0.2s ease 0s;
+}/*#DIV_17*/
+
+#SPAN_18 {
+    color: rgb(51, 102, 0);
+    display: block;
+    height: 17px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    width: 45.7656px;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 22.875px 8.5px;
+    transform-origin: 22.875px 8.5px;
+    border: 0px none rgb(51, 102, 0);
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    overflow: hidden;
+}/*#SPAN_18*/
+
+#SELECT_19 {
+    bottom: 0px;
+    display: block;
+    height: 31px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 91px;
+    perspective-origin: 45.5px 15.5px;
+    transform-origin: 45.5px 15.5px;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+    padding: 7px;
+    transition: all 0.2s ease 0s;
+}/*#SELECT_19*/
+
+#OPTION_20, #OPTION_21, #OPTION_23, #OPTION_34, #OPTION_36, #OPTION_49, #OPTION_51, #OPTION_53, #OPTION_63, #OPTION_65 {
+    cursor: default;
+    height: auto;
+    min-height: 16.8px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    align-self: center;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+}/*#OPTION_20, #OPTION_21, #OPTION_23, #OPTION_34, #OPTION_36, #OPTION_49, #OPTION_51, #OPTION_53, #OPTION_63, #OPTION_65*/
+
+#OPTION_22, #OPTION_24, #OPTION_35, #OPTION_50, #OPTION_64 {
+    cursor: default;
+    height: auto;
+    min-height: 16.8px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    align-self: center;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+}/*#OPTION_22, #OPTION_24, #OPTION_35, #OPTION_50, #OPTION_64*/
+
+#DIV_25 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: 27px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 26.2656px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 13.125px 13.5px;
+    transform-origin: 13.125px 13.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px 0px 0px 7.15625px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_25*/
+
+#SPAN_26 {
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 17px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 26.2656px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 13.125px 11.5px;
+    transform-origin: 13.125px 11.5px;
+    background: rgb(88, 134, 54) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    font: normal normal bold normal 10px / 10px Lato, Arial, sans-serif;
+    margin: 4px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 6px 0px 0px;
+}/*#SPAN_26*/
+
+#DIV_27 {
+    color: rgb(87, 74, 77);
+    float: right;
+    height: 31px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 107.5px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 53.75px 15.5px;
+    transform-origin: 53.75px 15.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_27*/
+
+#INPUT_28 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(51, 102, 0);
+    height: 31px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: 107.5px;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 53.75px 15.5px;
+    transform-origin: 53.75px 15.5px;
+    border: 0px none rgb(51, 102, 0);
+    border-radius: 25px 25px 25px 25px;
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    transition: all 0.2s ease 0s;
+}/*#INPUT_28*/
+
+#DIV_31 {
+    background-position: 99% -10px;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(51, 102, 0);
+    height: 17px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 193.891px;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 119.438px 15.5px;
+    transform-origin: 119.438px 15.5px;
+    background: rgb(255, 255, 255) url("https://www.muslimaid.org/_ui/media/dist/selector.png") no-repeat scroll 99% -10px / auto padding-box border-box;
+    border: 0px none rgb(51, 102, 0);
+    border-radius: 25px 25px 25px 25px;
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    padding: 7px 30px 7px 15px;
+    transition: all 0.2s ease 0s;
+}/*#DIV_31*/
+
+#SPAN_32 {
+    color: rgb(51, 102, 0);
+    display: block;
+    height: 17px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    width: 193.891px;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 96.9375px 8.5px;
+    transform-origin: 96.9375px 8.5px;
+    border: 0px none rgb(51, 102, 0);
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    overflow: hidden;
+}/*#SPAN_32*/
+
+#SELECT_33 {
+    bottom: 0px;
+    display: block;
+    height: 31px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 239px;
+    perspective-origin: 119.5px 15.5px;
+    transform-origin: 119.5px 15.5px;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+    padding: 7px;
+    transition: all 0.2s ease 0s;
+}/*#SELECT_33*/
+
+#DIV_38 {
+    bottom: 0px;
+    color: rgb(87, 74, 77);
+    height: 31px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 238.891px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 119.438px 15.5px;
+    transform-origin: 119.438px 15.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_38*/
+
+#INPUT_39 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 31px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    white-space: pre;
+    width: 238.891px;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 119.438px 15.5px;
+    transform-origin: 119.438px 15.5px;
+    user-select: none;
+    background: rgb(224, 51, 51) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 15px 15px 15px 15px;
+    font: normal normal 900 normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 7px 0px;
+    transition: all 0.05s ease-in-out 0s;
+}/*#INPUT_39*/
+
+#INPUT_40, #INPUT_41, #INPUT_69 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    height: auto;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: 100%;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 15px / normal Lato, Arial, sans-serif;
+    padding: 0px;
+}/*#INPUT_40, #INPUT_41, #INPUT_69*/
+
+#DIV_42 {
+    color: rgb(87, 74, 77);
+    display: none;
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    z-index: 1000;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(223, 236, 214) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(87, 74, 77);
+    border-radius: 0 8px 8px 8px;
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 17px 10px 10px;
+}/*#DIV_42*/
+
+#DIV_43, #DIV_58 {
+    color: rgb(87, 74, 77);
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_43, #DIV_58*/
+
+#DIV_44, #DIV_59, #DIV_66 {
+    color: rgb(87, 74, 77);
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_44, #DIV_59, #DIV_66*/
+
+#DIV_45 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: auto;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 38%;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_45*/
+
+#DIV_46, #DIV_60 {
+    background-position: 99% -10px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(51, 102, 0);
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: auto;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(255, 255, 255) url("https://www.muslimaid.org/_ui/media/dist/selector.png") no-repeat scroll 99% -10px / auto padding-box border-box;
+    border: 0px none rgb(51, 102, 0);
+    border-radius: 25px 25px 25px 25px;
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    padding: 7px 30px 7px 15px;
+    transition: all 0.2s ease 0s;
+}/*#DIV_46, #DIV_60*/
+
+#SPAN_47, #SPAN_61 {
+    color: rgb(51, 102, 0);
+    display: block;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 102, 0);
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    overflow: hidden;
+}/*#SPAN_47, #SPAN_61*/
+
+#SELECT_48 {
+    bottom: 0px;
+    display: block;
+    height: 31px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 91px;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+    padding: 7px;
+    transition: all 0.2s ease 0s;
+}/*#SELECT_48*/
+
+#OPTION_52 {
+    cursor: default;
+    height: auto;
+    min-height: 16.8px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    align-self: center;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+}/*#OPTION_52*/
+
+#DIV_54 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: auto;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 11%;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px 0px 0px 3%;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_54*/
+
+#SPAN_55 {
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 17px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 100%;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgb(88, 134, 54) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    font: normal normal bold normal 10px / 10px Lato, Arial, sans-serif;
+    margin: 4px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 6px 0px 0px;
+}/*#SPAN_55*/
+
+#DIV_56 {
+    color: rgb(87, 74, 77);
+    float: right;
+    height: auto;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 45%;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_56*/
+
+#INPUT_57 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(51, 102, 0);
+    height: auto;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: 100%;
+    column-rule-color: rgb(51, 102, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(51, 102, 0);
+    border-radius: 25px 25px 25px 25px;
+    font: normal normal bold normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(51, 102, 0) none 0px;
+    padding: 7px 10px;
+    transition: all 0.2s ease 0s;
+}/*#INPUT_57*/
+
+#SELECT_62 {
+    bottom: 0px;
+    display: block;
+    height: 31px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 239px;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 14px / normal Lato, Arial, sans-serif;
+    padding: 7px;
+    transition: all 0.2s ease 0s;
+}/*#SELECT_62*/
+
+#DIV_67 {
+    color: rgb(87, 74, 77);
+    height: auto;
+    position: relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_67*/
+
+#INPUT_68 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: auto;
+    letter-spacing: 1px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    white-space: pre;
+    width: 100%;
+    column-rule-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    user-select: none;
+    background: rgb(224, 51, 51) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 15px 15px 15px 15px;
+    font: normal normal 900 normal 14px / normal Lato, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 7px 0px;
+    transition: all 0.05s ease-in-out 0s;
+}/*#INPUT_68*/
+
+#INPUT_70 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    height: auto;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    vertical-align: top;
+    width: 100%;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 15px / normal Lato, Arial, sans-serif;
+    padding: 0px;
+}/*#INPUT_70*/
+
+#A_76 {
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 54.8906px;
+    column-rule-color: rgb(0, 0, 0);
+    perspective-origin: 35.4375px 9px;
+    transform-origin: 35.4375px 9px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px;
+    font: normal normal 900 normal 8px / normal Lato, Arial, sans-serif;
+    outline: rgb(0, 0, 0) none 0px;
+    padding: 4px 8px;
+    transition: all 0.05s ease-in-out 0s;
+}/*#A_76*/
+
+#DIV_77 {
+    color: rgb(87, 74, 77);
+    float: right;
+    height: 857px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 603.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 302.594px 429.5px;
+    transform-origin: 302.594px 429.5px;
+    background: rgb(241, 246, 237) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(230, 230, 230);
+    font: normal normal normal normal 15px / 19.5px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_77*/
+
+#FORM_78 {
+    color: rgb(87, 74, 77);
+    height: 857px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 603.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 301.594px 428.5px;
+    transform-origin: 301.594px 428.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#FORM_78*/
+
+#DIV_79 {
+    color: rgb(87, 74, 77);
+    height: 30px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 301.594px 35.5px;
+    transform-origin: 301.594px 35.5px;
+    border-top: 0px none rgb(87, 74, 77);
+    border-right: 0px none rgb(87, 74, 77);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-left: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 20px;
+}/*#DIV_79*/
+
+#DIV_80 {
+    color: rgb(87, 74, 77);
+    height: 30px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 281.594px 15px;
+    transform-origin: 281.594px 15px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_80*/
+
+#DIV_81 {
+    color: rgb(87, 74, 77);
+    float: left;
+    height: 30px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 235.266px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 117.625px 15px;
+    transform-origin: 117.625px 15px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_81*/
+
+#H2_82 {
+    color: rgb(87, 74, 77);
+    height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 235.266px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 117.625px 15px;
+    transform-origin: 117.625px 15px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal 900 normal 18px / 18px Lato, sans-serif;
+    margin: 0px;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 12px 0px 0px;
+}/*#H2_82*/
+
+#I_83 {
+    background-position: -280px -18px;
+    color: rgb(87, 74, 77);
+    display: inline-block;
+    height: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 14px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 7px 7px;
+    transform-origin: 7px 7px;
+    background: rgba(0, 0, 0, 0) url("https://www.muslimaid.org/_ui/media/dist/sprite.png") no-repeat scroll -280px -18px / auto padding-box border-box;
+    border: 0px none rgb(87, 74, 77);
+    font: italic normal 900 normal 18px / 18px Lato, sans-serif;
+    margin: 2px 8px 0px 0px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#I_83*/
+
+#DIV_84 {
+    color: rgb(87, 74, 77);
+    float: right;
+    height: 14px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 142.359px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 71.1719px 7px;
+    transform-origin: 71.1719px 7px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_84*/
+
+#H3_85 {
+    color: rgb(224, 51, 51);
+    height: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: underline;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    width: 142.359px;
+    column-rule-color: rgb(224, 51, 51);
+    perspective-origin: 71.1719px 7px;
+    transform-origin: 71.1719px 7px;
+    border: 0px none rgb(224, 51, 51);
+    font: normal normal 900 normal 11px / 11px Lato, sans-serif;
+    margin: 0px;
+    outline: rgb(224, 51, 51) none 0px;
+    padding: 2px 0px 0px;
+}/*#H3_85*/
+
+#I_86 {
+    background-position: -27px -25px;
+    color: rgb(224, 51, 51);
+    display: inline-block;
+    height: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 11px;
+    column-rule-color: rgb(224, 51, 51);
+    perspective-origin: 5.5px 5px;
+    transform-origin: 5.5px 5px;
+    background: rgba(0, 0, 0, 0) url("https://www.muslimaid.org/_ui/media/dist/sprite.png") no-repeat scroll -27px -25px / auto padding-box border-box;
+    border: 0px none rgb(224, 51, 51);
+    font: italic normal 900 normal 11px / 11px Lato, sans-serif;
+    margin: 2px 8px 0px 0px;
+    outline: rgb(224, 51, 51) none 0px;
+}/*#I_86*/
+
+#A_87 {
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    column-rule-color: rgb(0, 0, 0);
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal 900 normal 11px / 11px Lato, sans-serif;
+    outline: rgb(0, 0, 0) none 0px;
+}/*#A_87*/
+
+#DIV_88, #DIV_92, #DIV_96, #DIV_100 {
+    color: rgb(87, 74, 77);
+    height: 50px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 301.594px 45.5px;
+    transform-origin: 301.594px 45.5px;
+    border-top: 0px none rgb(87, 74, 77);
+    border-right: 0px none rgb(87, 74, 77);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-left: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 20px;
+}/*#DIV_88, #DIV_92, #DIV_96, #DIV_100*/
+
+#DIV_89, #DIV_93, #DIV_97, #DIV_101 {
+    color: rgb(87, 74, 77);
+    height: 50px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 281.594px 25px;
+    transform-origin: 281.594px 25px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_89, #DIV_93, #DIV_97, #DIV_101*/
+
+#H4_90, #H4_94, #H4_98, #H4_102, #H4_106 {
+    color: rgb(102, 162, 58);
+    height: 19px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 553.188px;
+    column-rule-color: rgb(102, 162, 58);
+    perspective-origin: 276.594px 9.5px;
+    transform-origin: 276.594px 9.5px;
+    border: 0px none rgb(102, 162, 58);
+    font: normal normal 900 normal 14px / 19.6px Lato, sans-serif;
+    margin: 0px 0px 10px 10px;
+    outline: rgb(102, 162, 58) none 0px;
+}/*#H4_90, #H4_94, #H4_98, #H4_102, #H4_106*/
+
+#P_91, #P_95, #P_103, #P_107 {
+    color: rgb(87, 74, 77);
+    height: 21px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 553.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 276.594px 10.5px;
+    transform-origin: 276.594px 10.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 14px / 21px Lato, Arial, sans-serif;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#P_91, #P_95, #P_103, #P_107*/
+
+#P_99, #P_108 {
+    color: rgb(87, 74, 77);
+    height: 21px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 553.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 276.594px 10.5px;
+    transform-origin: 276.594px 10.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 14px / 21px Lato, Arial, sans-serif;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#P_99, #P_108*/
+
+#DIV_104 {
+    color: rgb(87, 74, 77);
+    height: 71px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 301.594px 56px;
+    transform-origin: 301.594px 56px;
+    border-top: 0px none rgb(87, 74, 77);
+    border-right: 0px none rgb(87, 74, 77);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-left: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+    padding: 20px;
+}/*#DIV_104*/
+
+#DIV_105 {
+    color: rgb(87, 74, 77);
+    height: 71px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    width: 563.188px;
+    column-rule-color: rgb(87, 74, 77);
+    perspective-origin: 281.594px 35.5px;
+    transform-origin: 281.594px 35.5px;
+    border: 0px none rgb(87, 74, 77);
+    font: normal normal normal normal 15px / 15px Lato, Arial, sans-serif;
+    outline: rgb(87, 74, 77) none 0px;
+}/*#DIV_105*/
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;	
+}
