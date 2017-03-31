@@ -17,39 +17,56 @@
 			<form>
 				<fieldset>
 					<legend>Donation Amount</legend>
-					<input class="PriceButton" type="button" value="£5"/>
-					<input class="PriceButton" type="button" value="£10"/>
-					<input class="PriceButton" type="button" value="£15"/><br><br>
-					Other Amount:
-					<input type="text" name="otherAmount" maxlength="20"><br><br>
-					<input class="FrequencyButton" type="button" value="Monthly"/>
-					<input class="FrequencyButton" type="button" value="Quarterly"/>
-					<input class="FrequencyButton" type="button" value="Yearly"/>
+					<input class="btn btn-default btn-lg" type="button" value="£5"/>
+					<input class="btn btn-default btn-lg" type="button" value="£10"/>
+					<input class="btn btn-default btn-lg" type="button" value="£15"/><br><br>
+
+					<div class="form-group">
+						<label for="otherAmount">Other Amount:</label>
+						<input type="text" class="form-control" name="otherAmount" maxlength="20"><br>
+					</div>
+
+					<input class="btn btn-default btn-lg" type="button" value="Monthly"/>
+					<input class="btn btn-default btn-lg" type="button" value="Quarterly"/>
+					<input class="btn btn-default btn-lg" type="button" value="Yearly"/>
 
 				</fieldset>
 				<br><br>
 
 				<fieldset>
 					<legend>Personal Information:</legend>
-					First Name:
-					<input type="text" name="firstname" maxlength="20" required><br><br>
-					Last Name:
-					<input type="text" name="lastname" maxlength="20" required><br><br>
-					Email Address:
-					<input type="email" name="email" required><br><br>
-					Email Confirmation:
-					<input type="email" name="emailConfirmation" required><br><br>
-					Phone Number:
-					<input type="text" name="number" size="11" required><br><br>
-					Date of Birth:
-					<input type="date" name="bday" max="2001-01-01" required><br><br>
-					New Password:
-					<input type="password" name="psw"><br><br>
-					Password Confirmation:
-					<input type="password" name="psw"><br><br>
-
-					<input type="submit" value="Submit">
-
+					<div class="form-group">
+						<label for="firstname">First Name:</label>
+						<input type="text" class="form-control" id="firstname" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="lastname">Last Name:</label>
+						<input type="text" class="form-control" id="lastname" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="email">Email Address:</label>
+						<input type="email" class="form-control" id="email" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="emailConfirmation">Email Confirmation:</label>
+						<input type="email" class="form-control" id="emailConfirmation" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="number">Telephone Number:</label>
+						<input type="text" class="form-control" id="number" maxlength="11">
+					</div>
+					<div class="form-group">
+						<label for="DoB">Date of Birth:</label>
+						<input type="date" class="form-control" id="bday" max="2001-01-01" required>
+					</div>
+					<div class="form-group">
+						<label for="psw">New Password:</label>
+						<input type="password" class="form-control" id="psw" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="pwdConfirmation">Passoword Confirmation:</label>
+						<input type="text" class="form-control" name="pwdConfirmation" maxlength="20">
+					</div>
 				</fieldset>
 				<br><br>
 
@@ -59,17 +76,11 @@
 						<input type="radio" name="payment" id="PayPal" />
 						<label for="PayPal"><img src="https://www.bouncepad.com/wp-content/uploads/2014/03/new-paypal-logo.jpg" height="80" width="100" alt="PayPal"></label>
 
-						<input type="radio" name="payment" id="Visa" />
-						<label for="Visa"><img src="https://www.thestandard.co.zw/wp-content/uploads/2017/01/visa_logo.jpg" height="60" width="100" alt="Visa"></label>
-
-						<input type="radio" name="payment" id="MasterCard" />
-						<label for="MasterCard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2000px-MasterCard_Logo.svg.png" height="60" width="100" alt="MasterCard"></label>
-
-						<input type="radio" name="payment" id="AmericanExpress" />
-						<label for="AmericanExpress"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/American_Express_logo.svg/2000px-American_Express_logo.svg.png" height="80" width="100" alt="AmericanExpress"></label>
+						<input type="radio" name="payment" id="Direct Debit" />
+						<label for="Visa"><img src="https://powerni.co.uk/globalassets/home/images/direct-debit-logo.jpg" height="60" width="150" alt="Direct Debit"></label>
 					</div>
 
-					<input type="submit" value="Continue">
+					<input type="submit" class="btn btn-success disabled" value="Continue"><br><br>
 				</fieldset>
 				
 
