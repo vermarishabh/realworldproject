@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Charity Sign Up</title>
+		<link href=FirstPage.css  type="text/css" rel="stylesheet"/>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<p>Welcome! We are thrilled to have your support and hope that together we can increase donations for your given cause!</p>
+			<form>
+				<fieldset>
+					<legend>Charity Details</legend>
+					<div class="form-group">
+						<label for="chairtyName">Charity Name:</label>
+						<input type="text" class="form-control" id="chairtyName" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="RCN">Registered Charity Number:</label>
+						<input type="text" class="form-control" id="RCN" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="address">Address:</label>
+						<input type="text" class="form-control" id="address" maxlength="20">
+					</div>
+
+				</fieldset>
+				<br><br>
+
+				<fieldset>
+					<legend>Contact Information:</legend>
+					<div class="form-group">
+						<label for="chairtyNumber">Telephone Number:</label>
+						<input type="text" class="form-control" id="chairtyNumber" maxlength="20">
+					</div>
+					<div class="form-group">
+						<label for="charityEmail">Email Address:</label>
+						<input type="email" class="form-control" id="charityEmail">
+					</div>
+					<div class="form-group">
+						<label for="charityEmailConfirmation">Email Confirmation:</label>
+						<input type="text" class="form-control" id="charityEmailConfirmation">
+					</div>
+					
+
+				</fieldset>
+				<br><br>
+
+				<fieldset>
+					<div id="payment">
+						<legend>Payment Information:</legend>
+						<input type="radio" name="payment" id="PayPal" />
+						<label for="PayPal"><img src="https://www.bouncepad.com/wp-content/uploads/2014/03/new-paypal-logo.jpg" height="80" width="100" alt="PayPal"></label><br>
+					</div>
+					<div class="form-group">
+						<label for="charityBAN">Bank Account Number:</label>
+						<input type="text" class="form-control" id="charityBAN">
+					</div>
+					<div class="form-group">
+						<label for="charitySC">Sort Code:</label>
+						<input type="text" class="form-control" id="charitySC">
+					</div>
+
+					<input type="submit" class="btn btn-success" value="Continue"><br><br>
+				</fieldset>
+				
+
+			</form>
+		</div>
+
+	</body>
+</html>
